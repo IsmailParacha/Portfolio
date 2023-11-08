@@ -365,7 +365,7 @@
                     })
                     .fail(function() {
                         $('div#form-loader').fadeOut(500);
-                        Materialize.toast('Sorry! Something Wrong, Try Again', 4000);
+                        Materialize.toast('Sorry! Something Wrong, </br> You can directly mail to ismailjanparacha@gmail.com', 4000);
                         $("#submit").removeAttr('disabled', 'disabled'); // Enable submit button
                     });
             });
