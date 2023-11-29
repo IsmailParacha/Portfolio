@@ -189,12 +189,10 @@
                                         <span class="content">Ismailjanparacha@gmail.com</span>
                                     </li>
                                     <li class="clearfix">
-                                        <a href="https://ismailparacha.github.io/Ismail-Portfolio/">
                                         <span class="title">
                                             <i class="material-icons">language</i>
                                         </span>
-                                        <span class="content">ismailjanparacha.com</span>
-                                    </a>
+                                        <span class="content">example.com</span>
                                     </li>
                                     <!-- <li class="clearfix">
                                         <span class="title"><i class="fa fa-skype" aria-hidden="true"></i></span>
@@ -1112,6 +1110,11 @@
     </section>
 
 
+
+    <!-- Contact Start -->
+
+    <!-- Contact End -->
+
     <!--==========================================
                   CONTACT
 ===========================================-->
@@ -1122,55 +1125,60 @@
                 <h4 class="text-uppercase text-center">
                     <img src="images/icons/envelope.png" alt="demo">Contact</h4>
             </div>
-            <div class="row">
-                <div id="contact-card" class="col-md-5 col-sm-12 col-xs-12">
+        
+                <div id="contact-card" >
                     <!-- CONTACT FORM -->
-                    <div class="card">
-                        <div class="card-content">
-                            <form id="contact-form" name="c-form">
-                                <!-- NAME -->
-                                <div class="input-field">
-                                    <input id="first_name" type="text" class="validate" name="first_name" required>
-                                    <label for="first_name">Name</label>
-                                </div>
-                                <!--SUBJECT-->
-                                <div class="input-field">
-                                    <input id="sub" type="text" class="validate" name="sub">
-                                    <label for="sub">Subject</label>
-                                </div>
-                                <!--EMAIL-->
-                                <div class="input-field">
-                                    <input id="email" type="email" class="validate" name="email" required>
-                                    <label for="email">Email</label>
-                                </div>
-                                <!--MESSAGE-->
-                                <div class="input-field">
-                                    <textarea id="textarea1" class="materialize-textarea" name="message" required></textarea>
-                                    <label for="textarea1">Message</label>
-                                </div>
-                                <!-- SEND BUTTON -->
-                                <div class="contact-send">
-                                    <button id="submit" name="contactSubmit" type="submit" value="Submit" class="btn waves-effect">Send
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                        <!--FORM LOADER-->
-                        <div id="form-loader" class="progress is-hidden">
-                            <div class="indeterminate"></div>
+                    <div class="container-fluid card" id="contact" style="padding: 2%;margin-bottom: 5%;">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    <div class="contact-form" >
+
+                                        <form class="form" action="https://docs.google.com/forms/d/16qtp-8tqB3jyrc4Iy9cqeYvL-ANTINtFmLsZ1KuP46g/formResponse">
+                
+                                            <div class="form-row">
+                                                <div class="control-group col-sm-6">
+                                                    <input name="entry.2005620554" type="text" class="form-control p-4" id="name" placeholder="Your Name" 
+                                                        required="required" data-validation-required-message="Please enter your name" />
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                                <div class="control-group col-sm-6">
+                                                    <input name="entry.1045781291" type="email" class="form-control p-4" id="email" placeholder="Your Email" 
+                                                        required="required" data-validation-required-message="Please enter your email"/>
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                            </div>
+                            
+                                            <div class="control-group col-sm-6">
+                                                <input name="entry.1065046570" type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                                    required="required" data-validation-required-message="Please enter a subject" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                            
+                                            <div class="control-group col-sm-12">
+                                                <textarea name="entry.839337160" type="text" class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                                    required="required" data-validation-required-message="Please enter your message"></textarea>
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="control-group col-sm-12 ">
+                                            <input class="btn btn-outline-primary" style="background-color: #2f7ca8;" type="submit" value="Send Message" id="sendMessageButton" />
+                                            </div>
+                                        </form>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-7 col-sm-12 col-xs-12">
                     <!-- CONTACT MAP -->
                     <div id="map-card" class="card">
                         <!-- MAP -->
                         <div id="myMap"></div>
                     </div>
-                </div>
+               
 
-            </div>
+           
         </div>
     </section>
 
