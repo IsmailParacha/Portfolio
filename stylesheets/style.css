@@ -937,7 +937,7 @@ body.scale-effect .btn-holder .btn-play {
   /*v-card with fixed 400px height*/
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   overflow: hidden;
   transition: height 1s, color 1s, margin 1s;
   z-index: 1;
@@ -1068,7 +1068,7 @@ body.scale-effect .btn-holder .btn-play {
 
 #v-card-holder #v-card #profile img {
   /*user image for 400x400px image*/
-  width: 400px;
+  width: 500px;
   height: auto;
 }
 
