@@ -251,7 +251,7 @@
     function initMapsNormal() {
       var mapOptions = {
         zoom: 12,
-        center: new google.maps.LatLng(24.8607, 67.0011),
+        center: new google.maps.LatLng(47.7994, 13.044),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: true,
         disableDefaultUI: false,
